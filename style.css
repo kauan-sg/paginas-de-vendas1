@@ -1,27 +1,35 @@
-html,body{
-
+html, body {
     overflow: hidden;
+    margin: 0;
+    height: 100vh;
 }
+
+/* Estilo padrão (desktop) */
 body {
     background-image: url('fundo_pagdevendas.png');
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-position: center center; /* Centraliza a imagem de fundo */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    height: 100vh; /* Faz com que a altura do body seja 100% da altura da tela */
-    margin: 0; /* Remove margens padrão do body */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-/* Estilos do botão (exemplo) */
+/* Estilo para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url('fundo_pag2.png');
+    }
+}
+
+/* Estilos do botão */
 button {
     padding: 10px 20px;
-    background-color: rgba(1, 192, 99, 1);/* Cor de fundo semitransparente */
+    background-color: rgba(1, 192, 99, 1);
     border: none;
     cursor: pointer;
     font-size: 30px;
     position: absolute;
-    top: 90%; /* Posiciona o botão no centro vertical */
-    left: 85%; /* Posiciona o botão no centro horizontal */
-    transform: translate(-50%, -50%); /* Ajusta para que o botão fique exatamente no centro */
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
     border-radius: 15px;
     width: 24%;
     height: 11%;
