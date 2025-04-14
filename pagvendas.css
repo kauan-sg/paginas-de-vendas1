@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 40px 20px;
+    background: #ffffff;
+    box-shadow: 0 0 25px rgba(0,0,0,0.05);
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  
+  h1, h2 {
+    color: #1e1e1e;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+    text-align: center;
+  }
+  
+  .cta-button:hover {
+    background-color: #1f8a4d;
+  }
+  
+  .bonus, .testimonials, .modules {
+    margin: 40px 0;
+  }
+  
+  .testimonial {
+    background: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #27ae60;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .icon-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .icon-list li {
+    padding: 10px 0;
+    font-weight: 500;
+  }
+  
+  .icon-list li::before {
+    content: "✅ ";
+    color: #27ae60;
+    margin-right: 8px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    margin: 30px 0;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #27ae60;
+  }
+  
+  s {
+    color: #999;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container {
+      padding: 30px 15px;
+    }
+  
+    h1 {
+      font-size: 1.4rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    .cta-button {
+      width: 100%;
+      padding: 15px;
+      font-size: 1rem;
+    }
+  
+    .testimonial {
+      font-size: 0.95rem;
+    }
+  
+    .price {
+      font-size: 1.5rem;
+    }
+  }
+  

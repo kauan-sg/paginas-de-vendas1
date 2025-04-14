@@ -1,0 +1,29 @@
+html,body{
+
+    overflow: hidden;
+}
+body {
+    background-image: url('fundo_pagdevendas.png');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 100vh; /* Faz com que a altura do body seja 100% da altura da tela */
+    margin: 0; /* Remove margens padrão do body */
+}
+
+/* Estilos do botão (exemplo) */
+button {
+    padding: 10px 20px;
+    background-color: rgba(1, 192, 99, 1);/* Cor de fundo semitransparente */
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 90%; /* Posiciona o botão no centro vertical */
+    left: 85%; /* Posiciona o botão no centro horizontal */
+    transform: translate(-50%, -50%); /* Ajusta para que o botão fique exatamente no centro */
+    border-radius: 15px;
+    width: 24%;
+    height: 11%;
+    color: white;
+}
